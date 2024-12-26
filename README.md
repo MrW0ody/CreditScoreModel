@@ -12,3 +12,9 @@ Aby uruchomić projekt, należy upewnić się, że wszystkie wymagane biblioteki
 
    ```bash
    pip install -r requirements.txt
+   
+
+## W ramach projektu dostosowano hiperparametry modelu przy użyciu dwóch metod:
+
+1. GridSearchCV – proces trwał około 22 minut na lokalnym komputerze.
+2. RandomizedSearchCV – proces trwał około 9 minut na tym samym sprzęcie.
